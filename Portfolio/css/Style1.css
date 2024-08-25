@@ -59,7 +59,7 @@ nav {
 /* section - Demo */
 .Demo{
     padding-top: 90px;
-    padding-bottom: 20px;
+    display: flex;
 }
 
 .skillSection {
@@ -91,8 +91,9 @@ nav {
 }
 
 .about {
-    padding-right:10px;
-    max-width: 600px;
+    padding-right:15px;
+    padding-left:107px;
+    max-width: 550px;
 }
 
 .about h1{
@@ -104,6 +105,7 @@ nav {
 .skills {
     padding-left:120px;
     display:inline-flex;
+    width:fit-content;
     /* background-color: #363D73; */
 }
 
@@ -133,11 +135,9 @@ nav {
 }
 
 .container3 {
-    margin-left: 73px;
-}
-.container3 h1{
-    width:620px;
-
+    padding-left: 73px;
+    padding-right: 40px;
+    width:550px;
 }
 
 
