@@ -2,9 +2,10 @@
 
 body{
     margin:0;
-    font-family:Spacegrotesk,sans-serif;
+    font-family: Calibri, sans-serif;
 }
 
+/* nav bar */
 .left{
     font-size: 1.5rem;
     margin-left:90px;
@@ -36,6 +37,8 @@ nav {
     text-decoration: none;
 }
 
+/* firstsection  */
+
 .fisrtSection{
     display:flex;
     justify-content: space-evenly;  
@@ -51,14 +54,14 @@ nav {
 .rightSection img{
     width:450px;
     height:400px;
-    
 }
 
+/* section - Demo */
 .Demo{
     padding-top: 90px;
-    background-image: linear-gradient(45deg, #363D73, #2794B3);
-    padding-bottom:300px;
+    padding-bottom: 20px;
 }
+
 .skillSection {
     display: flex;
     align-items: center;
@@ -70,8 +73,8 @@ nav {
 }
 .profile img {
     border-radius: 50%;
-    width: 200px; 
-    height: auto; 
+    width: 200px;
+    height: auto;
     margin-left: 100px;
     margin-right:20px
 }
@@ -80,26 +83,28 @@ nav {
     padding: 0;
     margin: 0;
     font-size: 1.2rem;
-    color:rgb(111, 130, 87)
+    color:rgb(26, 22, 22)
 }
 .profile li {
-    padding-bottom: 11px;
+    padding-bottom: 5px;
+
 }
-.about h1{
-    color:rgb(120, 98, 58);
-}
+
 .about {
     padding-right:10px;
     max-width: 600px;
-    color:rgb(183, 152, 96)
 }
 
+.about h1{
+    color:black;
+
+}
+
+/* section skills */
 .skills {
-    font-family: Arial, sans-serif;
-    color:rgb(183, 152, 96);
     padding-left:120px;
     display:inline-flex;
-    background-color: #363D73;
+    /* background-color: #363D73; */
 }
 
 .skill-bar {
