@@ -1,0 +1,56 @@
+body{
+    margin:0;
+}
+.Section2{
+    margin-top: 20px;
+}
+
+.navbar{
+    display: flex;box-shadow: 2px 1px 2px #6d6666;
+    display:flex;
+}
+.container{
+    align-items: center;
+    display:inline-flex;
+}
+
+
+
+/* Section Demo-Cars*/
+
+.Audi-Q8{
+    display:flex;
+    align-items: center;
+    padding-left:20px;
+    padding-right: 30px;
+}
+.Audi-Q8 img{
+    width:550px;
+    height:auto;
+}
+.Audi-Q8 ul{
+    list-style-type: none;
+}
+.Audi-Q8 li{
+    padding:10px;
+}
+
+.Thar-Roxx{
+    display:flex;
+    align-items: center;
+    padding-left:20px;
+    padding-right: 30px;
+}
+.Thar-Roxx img{
+    width:550px;
+    height:auto;
+}
+.Thar-Roxx ul{
+    list-style-type: none;
+}
+.Thar-Roxx-Q8 li{
+    padding:10px;
+}
+.Thar-Roxx li{
+    padding:10px;
+}
