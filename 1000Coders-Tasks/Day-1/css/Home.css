@@ -15,6 +15,15 @@ body{
 }
 
 
+.rightSection{
+    padding-left:950px;
+    align-items: center;
+}
+
+.rightSection a{
+    text-decoration:none;
+    padding-left:30px;
+}
 
 /* Section Demo-Cars*/
 
